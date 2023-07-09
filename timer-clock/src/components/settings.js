@@ -1,13 +1,14 @@
 import BreakLength from "./breakLength";
+import SessionLength from "./sessionLength";
 
 
 function Settings(){
    return (
     <div className="settings">
         <BreakLength/>
-        <label id="session-label">Session Length
+        <SessionLength/>
         
-        </label>
+        
 
     </div>
    ) 
